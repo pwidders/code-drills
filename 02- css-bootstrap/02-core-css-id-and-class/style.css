@@ -16,3 +16,27 @@
   background-color: rgb(233, 56, 25);
   position: relative;
 }
+
+.box-1 {
+  height: 100px;
+  width: 100px;
+  color: cadetblue
+}
+
+.box-2 {
+  height: 100px;
+  width: 100px;
+  color: black
+}
+
+.box-3 {
+  height: 100px;
+  width: 100px;
+  color: blueviolet
+}
+
+.box-4 {
+  height: 100px;
+  width: 100px;
+  color: green
+}
