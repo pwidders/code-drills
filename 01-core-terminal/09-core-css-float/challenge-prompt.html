@@ -9,22 +9,22 @@
 </head>
 <style>
 
-    #red-textbox {
+    .red-textbox {
         padding: 20px;
         width: 300px;
         margin: 20px;
-
-        background-color: black;
+        float: left;
+        background-color: red;
         /* Float this element to the left */
 
     }
 
-    #yellow-textbox {
+    .yellow-textbox {
         padding: 20px;
         width: 300px;
         margin: 20px;
-
-        background-color: purple;
+        float: right;
+        background-color: yellow;
 
         /* Float this element to the right */
 
@@ -34,32 +34,29 @@
         padding: 20px;
         width: 300px;
         margin: 20px;
-
-        background-color: green;
-        
+        clear: both;
+        background-color:blue;
+    }
         /* Clear the float for this element so it appears below the red and yellow boxes */
 
-    }
-
-    
 </style>
 
 <body>
 
     <!-- Add classes and IDs to the divs -->
-    <div>
+    <div class="red-textbox">
         <p>I'm a red text box</p>
     </div>
 
-    <div>
+    <div class="yellow-textbox">
         <p>I'm a yellow text box</p>
     </div>
 
-    <div>
+    <div class="blue-textbox">
         <p>I'm a blue text box</p>
     </div>
 
-    <div>
+    <div class="blue-textbox">
         <p>I'm a blue text box</p>
     </div>
 
