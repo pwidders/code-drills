@@ -20,39 +20,36 @@
 
 .box-1 {
   position: absolute;
-
-
   height: 100px;
   width: 100px;
+  top: 0;
+  left: 0;
   background-color: purple;
 }
 
 .box-2 {
   position: absolute;
-
-
   height: 100px;
   width: 100px;
-  background-color: blue; 
+  top: 0;
+  right: 0;
+  background-color: blue;
 }
 
 .box-3 {
   position: absolute;
-
-
   height: 100px;
   width: 100px;
   background-color: yellow;
- 
+  bottom: 0;
+  right: 0;
 }
 
 .box-4 {
   position: absolute;
-
-
   height: 100px;
   width: 100px;
   background-color: olivedrab;
-  
-  
+  bottom: 0;
+  left: 0;
 }
