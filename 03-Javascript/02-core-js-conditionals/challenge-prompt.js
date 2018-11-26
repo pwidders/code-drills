@@ -7,7 +7,7 @@
 var characterOneName = "Mr. Farley";
 
 // assign a new value "Ms. Farley" to the variable `characterOneName`
-characterOneName= "Ms. Farley"
+characterOneName= "Ms. Farley";
 
 // make a new variable `characterOneAge` and assign it an age of your choice
 var characterOneAge= 10;
@@ -90,13 +90,17 @@ if (characterOneName === "Mr. Farley"); {
     console.log("Mr. Farley"); 
 
 // Else, check if `characterOneName` is "Ms.Farley"
-} else if (characterOneName === "Ms. Farley"); {
+} 
+
+else if (characterOneName === "Ms. Farley"); {
 
     // If it does, console log "hello Ms. Farley"
     console.log("Ms. Farley") 
     
 // Else, we know if the code reaches this point that `characterOneName` is neither "Mr. Farley" nor "Ms. Farley"
-}   else {
+}   
+
+else {
     console.log("Hello Stranger")
 }
 

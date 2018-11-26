@@ -3,9 +3,8 @@
 
 
 // Using the `confirm` method, welcome the user to the Boba Shop and ask them if they would like a boba
-var wantsBobs= confirm("Welcome! Do you Boba?"); 
-
 // Store the user response in a variable `wantsBoba`
+var wantsBobs= confirm("Welcome! Do you Boba?"); 
 
 
 // Create an if statement checking whether the user wanted boba from the earlier `confirm` dialogue
@@ -13,12 +12,11 @@ if (wantsBoba === true) {
 
 
     // Declare a variable `drinkFlavor`
-    var drinkFlavor= prompt("What flavor drink?");
     
     // Prompt the user for what flavor they would like for their drink
 
     // Store their response into the variable `drinkFlavor`
-
+    var drinkFlavor= prompt("What flavor drink?");
     
     
     // Write to the DOM a message to the user telling them that their drink will be ready soon.

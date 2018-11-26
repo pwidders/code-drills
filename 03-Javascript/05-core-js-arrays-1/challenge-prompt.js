@@ -8,7 +8,7 @@
 var firstArray= [0,1,2,3];
 
 // Create an array containing the integers from 4 to 7 and store it into a variable named `secondArray`
-var secondArray= [0,1,2,3];
+var secondArray= [4,5,6,7];
 
 // Create an array containing the integers from 8 to 11 and store it into a variable named `thirdArray`
 var thirdArray= [8,9,10,11];

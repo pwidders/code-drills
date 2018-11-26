@@ -1,24 +1,27 @@
 console.log("==================== Question 01 ====================");
 
 // make a variable named `word` and set it to an empty string
-
+var word = ""
 
 // append the string "hello" to `word`
-
+word = word + "hello";
 
 // append a space to `word`
-
+word = word + " ";
 
 // append the string "world" to `word`
-
+word = word + "world";
 
 // console.log the `word` variable
-
+console.log(word);
 
 
 console.log("==================== Question 02 ====================");
 
 // iterate through the `word` variable and console.log each character inside of it
+for (var i = 0, i < word.length; i++) {
+    console.log(word[i]);
+}
 
 
 
@@ -30,6 +33,7 @@ var animal = "the fox says";
 // in the `animal` variable. Do not hard code in the number you want to console
 // log.
 
+console.log(animal.indexOf("x"));
 
 
 console.log("==================== Question 04 ====================");
@@ -39,16 +43,28 @@ animal = "the giraffe says sup";
 // using `indexOf`, console log `true` if the string "says" is in the `animal` 
 // variable and `false` if it's not
 
+if (animal.indexOf('says') >= 0) { 
+	console.log(true); 
+} 
+
+else { 
+	console.log(false); 
+}
 
 // using `indexOf`, console.log `true` if the string "zebra" is in the `animal` 
 // variable and `false` if it's not.
 
+if (animal.indexOf('zebra') >= 0) {
+    console.log('true')
+}
 
-
+else {
+    console.log('false')
+}
 console.log("==================== Question 05 ====================");
 
 // what is the index of the first character of a string?
-//
+0
 
 
 console.log("==================== Question 06 ====================");
@@ -56,7 +72,7 @@ console.log("==================== Question 06 ====================");
 var word = "fiesta";
 
 // console log the "e" in `word` without explicitly using the string "e"
-
+console.log(word[2]);
 
 
 console.log("==================== Question 07 ====================");
@@ -66,7 +82,7 @@ greeting = greeting.replace(/a/g, 'g');
 
 // what is the value of the variable greeting?
 
-
+'gpple bgngng chicken' 
 
 console.log("==================== Question 08 ====================");
 
@@ -76,7 +92,7 @@ word = "apple";
 
 // HINT: You are looking for a slice of this string, not the whole pie
 
-
+console.log(word.slice(1, 4))
 
 console.log("==================== Question 09 ====================");
 
@@ -85,7 +101,10 @@ word = "the giraffe said hi";
 // Capitalize the first letter in the `word` variable 
 // console log your modified `word` variable
 
+// word[0].toUpperCase();
+// console.log(word);
 
+console.log(word.replace('t','T'))
 
 console.log("==================== Question 10 ====================");
 
@@ -93,24 +112,24 @@ animal = "moose";
 
 //write code here to change the center o to z
 
-
+console.log(animal.replace('oo', 'oz'));
 
 console.log("==================== Question 11 ====================");
 
 // make a variable named `dogs` and initialize it to an empty array
-
+var dogs = [];
 
 // append the string "rover" into the `dogs` array
-
+dogs.push('rover');
 
 // append the string "hunter" into the `dogs` array
-
+dogs.push('hunter');
 
 // append the string "oak" into the `dogs` array
-
+dogs.push('oak');
 
 // console.log out the length of the `dogs` array
-
+console.log(dogs.length);
 
 
 console.log("==================== Question 12 ====================");
@@ -118,11 +137,10 @@ console.log("==================== Question 12 ====================");
 var letters = ['h', 'c', 'i', 'r'];
 
 // reverse the order of the `letters` array
-
+var reverseLetters = letters.reverse();
 
 // convert the `letters` array into a string and console log it
-
-
+console.log (letters.toString());
 
 console.log("==================== Question 13 ====================");
 
@@ -131,12 +149,16 @@ var famousToms = ["Tom Cruise", "Tom Hanks", "Tom Keel"];
 // write code below to replace "Tom Hanks" with "Tom Petty" 
 // in the `famousToms` variable
 
+famousToms[1]= Tom Petty
 
 // declare a variable named `nums` and set it to an empty array
-
+var nums= []
 
 // on the next line write code to add numbers 1 to 1000 into the nums array
 
+for (var i = 0; i <= 1000, i++) {
+    nums.push(i);
+}
 
 
 console.log("==================== Question 14 ====================");
@@ -144,16 +166,20 @@ console.log("==================== Question 14 ====================");
 // write a function named `doubleLength` that takes in a string and returns
 // the length of that string multiplied by 2
 
+function doubleLength (string) {
+    return String.length * 2;
+}
 
 // call the `doubleLength` function with a value of "allen" and console log 
 // the return value
 
+console.log(doubleLength('Allen'));
 
 console.log("==================== Question 15 ====================");
 
 // make a variable named `nums` and set it to be an array with the 
 // numbers 1002 and 1001 in it.
-
+var nums = (1001, 1002)
 
 // on the next line write code to push the number from 1000 down to 1 
 // into the nums array. The final array should have the numbers from 1002

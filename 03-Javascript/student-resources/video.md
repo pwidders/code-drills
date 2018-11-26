@@ -1,1 +1,0 @@
-* [Lesson 3.2 - Rock, Paper, Scissors](https://youtu.be/Tio88WjwFO0)
