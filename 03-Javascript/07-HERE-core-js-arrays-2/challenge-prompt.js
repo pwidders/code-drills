@@ -70,7 +70,7 @@ console.log(sum);
 
 
 // iterate through numArray and console log the sum of all the numbers greater than 50
-var = plusFiftyClub;
+var plusFiftyClub = 0;
 for (var i=0; i < numArray.length; i++) {
   if (numArray[i] > 50);
   plusFiftyClub = plusFiftyClub + numArray[i];
@@ -79,9 +79,11 @@ for (var i=0; i < numArray.length; i++) {
 
 
 // iterate through numArray and console log the sum of all the even numbers
+var evenSum = 0;
 for (var i=0; i < numArray.length; i++);
-  if (% 2) === 0
-
+  if ((numArray[i] % 2) === 0) {
+    evenSum= evenSum + numArray[i];
+  }
 
 // This seperator is here to make your console logs a little easier to read 
 // by creating seperations between the different sections of the activity
@@ -91,28 +93,53 @@ console.log("--------------------------Seperator 3--------------------------");
 var fruits = [
   "Apple", "Orange", "Banana", "Pomelo", "Apple", "Kiwi", "Peach", "Banana", "Grape", "Tomato", 
   "Kiwi", "Apple", "Watermelon", "Lemon", "Pomelo", "Apple", "Banana", "Peach", "Apricot", "Grape"];
-// iterate through fruits and console log the number of times "Apple" appears in the array
 
+// iterate through fruits and console log the number of times "Apple" appears in the array
+var appleAppearance = 0;
+for (var i = 0; i < fruits.length; i++) {
+  if (fruits[i] === "Apple") {
+    appleAppearance++;
+  }
+}
+console.log(appleAppearance);
 
 
 // iterate through fruits and console log the number of times "Peach" appears in the array
-
-
+var peachAppearance = 0;
+for (var i = 0; i < fruits.length; i++) {
+  if (fruits[i] === "Peach") {
+    peachAppearance++;
+  }
+}
+console.log(peachAppearance);
 
 // iterate through fruits and console log the number of fruits that start with "P" in the array
+
+var p = 0;
+for (i = 0; i < fruits.length; i++) {
+  if (fruits[i].charAt(0) === "P") {
+  p++;
+  }
+}
+
+console.log(p);
 
 
 
 // create a new empty array named uniqueFruits
-
+var uniqueFruits = []
 
 // iterate through fruits and populate uniqueFruits with only unique values from fruits
 // you should a shorter array without repeated values
-
+for (var i = 0; i < fruits.length; i++) {
+    if (!uniqueFruits.includes(fruits[i])) {
+      uniqueFruits.push(fruits[i]);
+    }
+  }
 
 
 // console log out your uniqueFruits array
-
+console.log(uniqueFruits);
 
 
 
